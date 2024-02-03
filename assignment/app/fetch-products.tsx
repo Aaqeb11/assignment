@@ -1,8 +1,8 @@
 import sleep from 'sleep-promise';
-async function fetchItem(prev_offset,prev_limit){
+async function fetchItem(prev_offset:number,prev_limit:number){
    
     var apiURL=`https://api.escuelajs.co/api/v1/products?offset=${prev_offset}&limit=${prev_limit}`;
-while(apiURL){
+// while(apiURL){
    try{
        await sleep(1000)
        const response=await fetch(apiURL);
@@ -15,5 +15,5 @@ while(apiURL){
        return null
    }
 }
-}
+// }
 export default fetchItem;

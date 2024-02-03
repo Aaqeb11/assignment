@@ -34,9 +34,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/page.jsx",
+    "app/page.tsx",
     "app/layout.jsx"
-  ],
+, "components/Items.jsx", "components/spinner.jsx"  ],
   "exclude": [
     "node_modules"
   ]

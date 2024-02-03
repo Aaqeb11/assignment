@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card"
 import fetchItem from '@app/fetch-products'
 import Items from "@components/Items"
+import Spinner from "@components/spinner"
 import { useEffect,useState } from 'react';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
   return(
     <div>
     <Items/>
+    <Spinner/>
     </div>
   )
 

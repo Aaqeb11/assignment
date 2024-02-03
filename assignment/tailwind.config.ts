@@ -16,8 +16,8 @@ const config: Config = {
   
     },
     fontFamily:{
-      work:[
-        ' "Workbench" ', ' "sans-serif" '
+      customFont:[
+        ' "Protest Revolution" ', ' "sans-serif" '
       ]
     },
   },
