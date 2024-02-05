@@ -36,7 +36,7 @@
     ".next/types/**/*.ts",
     "app/page.tsx",
     "app/layout.jsx"
-, "components/Items.jsx", "components/spinner.jsx"  ],
+, "components/Items.jsx", "components/spinner.jsx", "app/fetch-products.tsx"  ],
   "exclude": [
     "node_modules"
   ]

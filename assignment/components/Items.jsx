@@ -20,7 +20,7 @@ const Items = () => {
 
     const fetchData = async () => {
         try {
-            setOffSet((prevOffSet)=>(prevOffSet+limit)%10);
+            setOffSet((prevOffSet)=>(prevOffSet+limit)%30);
           const data = await fetchItem(offSet,limit);
           
         //   setLimit((prevLimit)=>prevLimit+10)
@@ -70,7 +70,7 @@ const Items = () => {
                     <p className="text-xl mb-6 font-semibold text-left max:">{item.title}</p>
                     </div>
                     <div className="flex text-center">
-                    <p className="text-xl font-mono italic" >{item.description}</p>
+                    <p className="text-xl font-mono italic sm:hidden" >{item.description}</p>
                   </div>
                     <div className="">
                     <p className="text-2xl  font-semibold ">Rs:{item.price}</p>
